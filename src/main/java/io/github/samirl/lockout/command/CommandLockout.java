@@ -1,6 +1,7 @@
 package io.github.samirl.lockout.command;
 
 import io.github.samirl.lockout.Lockout;
+import net.md_5.bungee.api.ChatColor;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -26,7 +27,14 @@ public class CommandLockout implements CommandExecutor {
 			return false;
 		}
 		ProtectedRegion region = regions.getRegion(args[0]);
-		cmdreg = region;
+		if(!main.getConfig().getStringList("lockedregions").contains(args[0])) {
+			main.getConfig().set("lockedregions", args[0]);
+			sender.sendMessage(ChatColor.RED + "Locked region " + ChatColor.GOLD + args[0]);
+		} else {
+			main.getConfig().getStringList("lockedregions").remove(args[0]);
+			sender.sendMessage(ChatColor.GREEN + "Unlocked region " + ChatColor.GOLD + args[0]);
+		}
+		
 		return true;
 	}
 
