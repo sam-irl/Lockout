@@ -18,7 +18,7 @@ public class Lockout extends JavaPlugin {
 	public void onDisable() {
 		
 	}
-	private WorldGuardPlugin getWorldGuard(){
+	private WorldGuardPlugin getWorldGuard() {
 	    Plugin plugin = getServer().getPluginManager().getPlugin("WorldGuard");
 
 	    // WorldGuard may not be loaded
