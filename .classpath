@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="bin" kind="output"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/org/spigotmc/spigot-api/1.12-R0.1-SNAPSHOT/spigot-api-1.12-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/org/spigotmc/spigot/1.12-R0.1-SNAPSHOT/spigot-1.12-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.gradle/caches/modules-2/files-2.1/com.sk89q.worldguard/worldguard-legacy/6.2/4835055c94f69c8bba9857053828671f5f730308/worldguard-legacy-6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sam/.m2/repository/org/yaml/snakeyaml/1.18/snakeyaml-1.18.jar"/>
+	<classpathentry sourcepath="C:/Users/sam/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/6c98d6766e72d5575f96c9479d1c1d3b865c6e25/junit-4.10-sources.jar" kind="lib" path="C:/Users/sam/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar"/>
+	<classpathentry sourcepath="C:/Users/sam/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar" kind="lib" path="C:/Users/sam/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar"/>
+</classpath>
