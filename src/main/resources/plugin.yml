@@ -1,7 +1,3 @@
-name: empty-spigot-plugin
-version: @version@-@apiversion@
-description: An empty example plugin for Spigot with Gradle
-authors: [Rene Hollander]
-website: https://github.com/ReneHollander/empty-spigot-plugin
-
-main: com.example.emptyspigotplugin.EmptySpigotPlugin
+name: Lockout
+main: io.github.samirl.lockout.Lockout
+depends: [WorldGuard]
