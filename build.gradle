@@ -47,6 +47,7 @@ dependencies {
     compile group: 'org.spigotmc', name: 'spigot-api', version: project.property("apiversion")
     compile group: 'org.spigotmc', name: 'spigot', version: project.property("apiversion")
     compile 'com.sk89q.worldguard:worldguard-legacy:6.2'
+    compile 'com.sk89q.worldedit:worldedit-bukkit:6.1.5'
 
     // dependencies go here
     // Example:
